@@ -17,3 +17,13 @@ a:hover {
     color: #363533;
     text-decoration: none;
 }
+
+input {
+    font-size: 1rem;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+    margin: 1rem;
+    color: $black;
+    background-color: $white;
+    border: 1px solid #2a2929;
+    border-radius: 5%;
+}

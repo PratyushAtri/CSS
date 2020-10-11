@@ -1,0 +1,89 @@
+@each $name, $color in $colors {
+    .nav-#{$name} {
+      background-color: $color;
+      width: 100%;
+      margin: 0 0 2vh 0;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+      display: block;
+      padding-top: 4vh;
+      padding-bottom: 4vh;
+
+      .nav-heading {
+        padding-left: 3vh;
+        font-size: 200%;
+        color: $cyan;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        float: right;
+        padding-top: 1.3vh;
+        padding-right: 5vh;
+        color: $white;
+
+        .nav-link {
+          color: $blue;
+          font-size: 120%;
+          padding: 0 1.2rem;
+        }
+
+        .nav-link:hover {
+          color: $red;
+        }
+
+        .navbar-link_select {
+          display: inline-block;
+          font-size: 120%;
+          color: $blue;
+          cursor: pointer;
+          margin-right: 2rem;
+          padding: 0 1.2rem;
+        }
+
+        .navbar-link_select ul {
+          display: none;
+          width: 6rem;
+          float: right;
+          list-style-type: none;
+          color: #0a0909;
+          z-index: 10;
+          text-align: center;
+        }
+
+        .navbar-link_select ul li {
+          border-color: black;
+          border-style: dot-dash;
+          border-spacing: 1px;
+          background-color: $white;
+          height: 1.5rem;
+          padding-top: 0.2rem;
+          z-index: 10;
+          color: $black;
+        }
+
+        .navbar-link_select ul li:hover {
+          border: 1px solid black;
+          background-color: $cyan;
+        }
+
+        .navbar-link_select:hover ul {
+          display: block;
+          position: absolute;
+          margin: 1px;
+        }
+
+        .animate {
+          animation-duration: 0.3s;
+          animation-fill-mode: both;
+          animation-name: slideIn;
+        }
+
+      }
+    }
+}
+
+@media (max-width: 400px) {
+  .nav-heading {
+    color: $red;
+  }
+}

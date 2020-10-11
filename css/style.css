@@ -1,6 +1,6 @@
 * {
   font-size: 1rem;
-  font-family: 'Arimo';
+  font-family: "Arimo";
   font-weight: 400;
   color: #363533;
   margin: 0;
@@ -18,6 +18,30 @@ a:hover {
   text-decoration: none;
 }
 
+input {
+  font-size: 1rem;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  margin: 1rem;
+  color: #363533;
+  background-color: #edebe6;
+  border: 1px solid #2a2929;
+  border-radius: 5%;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
 .text-black {
   color: #363533;
 }
@@ -103,10 +127,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-white,
@@ -126,10 +147,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-cyan,
@@ -149,10 +167,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-cyan-green,
@@ -172,10 +187,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-red,
@@ -195,10 +207,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-orange,
@@ -218,10 +227,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-yellow,
@@ -241,10 +247,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-lemon-yellow,
@@ -264,10 +267,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-green,
@@ -287,10 +287,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-blue,
@@ -310,10 +307,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-black {
@@ -350,10 +344,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-black:hover {
@@ -380,10 +371,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-white:hover {
@@ -410,10 +398,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-cyan:hover {
@@ -440,10 +425,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-cyan-green:hover {
@@ -470,10 +452,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-red:hover {
@@ -500,10 +479,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-orange:hover {
@@ -530,10 +506,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-yellow:hover {
@@ -560,10 +533,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-lemon-yellow:hover {
@@ -590,10 +560,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-green:hover {
@@ -620,10 +587,7 @@ a:hover {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-blue:hover {
@@ -662,10 +626,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-white,
@@ -686,10 +647,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-cyan,
@@ -710,10 +668,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-cyan-green,
@@ -734,10 +689,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-red,
@@ -758,10 +710,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-orange,
@@ -782,10 +731,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-yellow,
@@ -806,10 +752,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-lemon-yellow,
@@ -830,10 +773,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-green,
@@ -854,10 +794,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-blue,
@@ -878,10 +815,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-round-black {
@@ -919,10 +853,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-black:hover {
@@ -950,10 +881,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-white:hover {
@@ -981,10 +909,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-cyan:hover {
@@ -1012,10 +937,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-cyan-green:hover {
@@ -1043,10 +965,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-red:hover {
@@ -1074,10 +993,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-orange:hover {
@@ -1105,10 +1021,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-yellow:hover {
@@ -1136,10 +1049,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-lemon-yellow:hover {
@@ -1167,10 +1077,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-green:hover {
@@ -1198,10 +1105,7 @@ a:hover {
   line-height: 1.5;
   border-radius: 200px;
   width: 13vh;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn-outline-round-blue:hover {
@@ -1221,3 +1125,721 @@ a:hover {
 .btn-outline-round-white:hover {
   color: #1d1c1c;
 }
+
+.nav-black {
+  background-color: #363533;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-black .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-black .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-black .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-black .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-black .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-black .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-black .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-black .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-black .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-black .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-white {
+  background-color: #edebe6;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-white .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-white .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-white .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-white .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-white .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-white .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-white .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-white .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-white .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-white .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-cyan {
+  background-color: #18f0da;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-cyan .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-cyan .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-cyan .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-cyan .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-cyan .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-cyan .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-cyan .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-cyan .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-cyan .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-cyan .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-cyan-green {
+  background-color: #0cf575;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-cyan-green .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-cyan-green .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-cyan-green .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-cyan-green .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-cyan-green .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-cyan-green .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-cyan-green .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-cyan-green .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-cyan-green .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-cyan-green .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-red {
+  background-color: #ed2e0c;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-red .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-red .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-red .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-red .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-red .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-red .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-red .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-red .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-red .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-red .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-orange {
+  background-color: #f5880c;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-orange .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-orange .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-orange .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-orange .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-orange .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-orange .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-orange .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-orange .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-orange .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-orange .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-yellow {
+  background-color: #f5e10c;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-yellow .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-yellow .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-yellow .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-yellow .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-yellow .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-yellow .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-yellow .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-yellow .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-yellow .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-yellow .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-lemon-yellow {
+  background-color: #daf50c;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-lemon-yellow .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-lemon-yellow .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-lemon-yellow .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-lemon-yellow .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-lemon-yellow .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-lemon-yellow .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-lemon-yellow .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-lemon-yellow .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-lemon-yellow .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-lemon-yellow .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-green {
+  background-color: #4ef50c;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-green .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-green .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-green .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-green .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-green .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-green .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-green .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-green .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-green .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-green .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+.nav-blue {
+  background-color: #0c84f5;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: block;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+.nav-blue .nav-heading {
+  padding-left: 3vh;
+  font-size: 200%;
+  color: #18f0da;
+  font-weight: bold;
+}
+.nav-blue .nav-links {
+  float: right;
+  padding-top: 1.3vh;
+  padding-right: 5vh;
+  color: #edebe6;
+}
+.nav-blue .nav-links .nav-link {
+  color: #0c84f5;
+  font-size: 120%;
+  padding: 0 1.2rem;
+}
+.nav-blue .nav-links .nav-link:hover {
+  color: #ed2e0c;
+}
+.nav-blue .nav-links .navbar-link_select {
+  display: inline-block;
+  font-size: 120%;
+  color: #0c84f5;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 0 1.2rem;
+}
+.nav-blue .nav-links .navbar-link_select ul {
+  display: none;
+  width: 6rem;
+  float: right;
+  list-style-type: none;
+  color: #0a0909;
+  z-index: 10;
+  text-align: center;
+}
+.nav-blue .nav-links .navbar-link_select ul li {
+  border-color: black;
+  border-style: dot-dash;
+  border-spacing: 1px;
+  background-color: #edebe6;
+  height: 1.5rem;
+  padding-top: 0.2rem;
+  z-index: 10;
+  color: #363533;
+}
+.nav-blue .nav-links .navbar-link_select ul li:hover {
+  border: 1px solid black;
+  background-color: #18f0da;
+}
+.nav-blue .nav-links .navbar-link_select:hover ul {
+  display: block;
+  position: absolute;
+  margin: 1px;
+}
+.nav-blue .nav-links .animate {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideIn;
+}
+
+@media (max-width: 400px) {
+  .nav-heading {
+    color: #ed2e0c;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

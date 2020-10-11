@@ -4,15 +4,20 @@
 //     }
 // }
 
-@import './main';
 @import './config';
+@import './main';
+@import "animation";
 
 // Text
 @import './text/text-colors';
 @import './text/text-size';
 @import './text/text-align';
 
+// Button
 @import './button/btn';
 @import './button/btn-outline';
 @import './button/btn-round';
 @import './button/btn-outline-round';
+
+// Navbar
+@import './navbar/nav';
