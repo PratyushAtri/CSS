@@ -1,0 +1,1223 @@
+* {
+  font-size: 1rem;
+  font-family: 'Arimo';
+  font-weight: 400;
+  color: #363533;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  color: #363533;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #363533;
+  text-decoration: none;
+}
+
+.text-black {
+  color: #363533;
+}
+
+.text-white {
+  color: #edebe6;
+}
+
+.text-cyan {
+  color: #18f0da;
+}
+
+.text-cyan-green {
+  color: #0cf575;
+}
+
+.text-red {
+  color: #ed2e0c;
+}
+
+.text-orange {
+  color: #f5880c;
+}
+
+.text-yellow {
+  color: #f5e10c;
+}
+
+.text-lemon-yellow {
+  color: #daf50c;
+}
+
+.text-green {
+  color: #4ef50c;
+}
+
+.text-blue {
+  color: #0c84f5;
+}
+
+.text-sm {
+  font-size: 80%;
+}
+
+.text-md {
+  font-size: 100%;
+}
+
+.text-lg {
+  font-size: 200%;
+}
+
+.text-xl {
+  font-size: 300%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-black,
+.btn-black:link,
+.btn-black:visited,
+.btn-black:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #363533;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-white,
+.btn-white:link,
+.btn-white:visited,
+.btn-white:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #edebe6;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-cyan,
+.btn-cyan:link,
+.btn-cyan:visited,
+.btn-cyan:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #18f0da;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-cyan-green,
+.btn-cyan-green:link,
+.btn-cyan-green:visited,
+.btn-cyan-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #0cf575;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-red,
+.btn-red:link,
+.btn-red:visited,
+.btn-red:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ed2e0c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-orange,
+.btn-orange:link,
+.btn-orange:visited,
+.btn-orange:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #f5880c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-yellow,
+.btn-yellow:link,
+.btn-yellow:visited,
+.btn-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #f5e10c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-lemon-yellow,
+.btn-lemon-yellow:link,
+.btn-lemon-yellow:visited,
+.btn-lemon-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #daf50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-green,
+.btn-green:link,
+.btn-green:visited,
+.btn-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #4ef50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-blue,
+.btn-blue:link,
+.btn-blue:visited,
+.btn-blue:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #0c84f5;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-black {
+  color: #edebe6;
+}
+
+.btn-red {
+  color: #edebe6;
+}
+
+.btn-blue {
+  color: #edebe6;
+}
+
+.btn-orange {
+  color: #edebe6;
+}
+
+.btn-outline-black,
+.btn-outline-black:link,
+.btn-outline-black:visited,
+.btn-outline-black:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #363533;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #363533;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-black:hover {
+  background-color: #363533;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-white,
+.btn-outline-white:link,
+.btn-outline-white:visited,
+.btn-outline-white:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #edebe6;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #edebe6;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-white:hover {
+  background-color: #edebe6;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-cyan,
+.btn-outline-cyan:link,
+.btn-outline-cyan:visited,
+.btn-outline-cyan:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #18f0da;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #18f0da;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-cyan:hover {
+  background-color: #18f0da;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-cyan-green,
+.btn-outline-cyan-green:link,
+.btn-outline-cyan-green:visited,
+.btn-outline-cyan-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0cf575;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #0cf575;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-cyan-green:hover {
+  background-color: #0cf575;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-red,
+.btn-outline-red:link,
+.btn-outline-red:visited,
+.btn-outline-red:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ed2e0c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ed2e0c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-red:hover {
+  background-color: #ed2e0c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-orange,
+.btn-outline-orange:link,
+.btn-outline-orange:visited,
+.btn-outline-orange:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f5880c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f5880c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-orange:hover {
+  background-color: #f5880c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-yellow,
+.btn-outline-yellow:link,
+.btn-outline-yellow:visited,
+.btn-outline-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f5e10c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f5e10c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-yellow:hover {
+  background-color: #f5e10c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-lemon-yellow,
+.btn-outline-lemon-yellow:link,
+.btn-outline-lemon-yellow:visited,
+.btn-outline-lemon-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #daf50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #daf50c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-lemon-yellow:hover {
+  background-color: #daf50c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-green,
+.btn-outline-green:link,
+.btn-outline-green:visited,
+.btn-outline-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #4ef50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #4ef50c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-green:hover {
+  background-color: #4ef50c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-blue,
+.btn-outline-blue:link,
+.btn-outline-blue:visited,
+.btn-outline-blue:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0c84f5;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #0c84f5;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-blue:hover {
+  background-color: #0c84f5;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-cyan:hover {
+  color: #1d1c1c;
+}
+
+.btn-outline-cyan-green:hover {
+  color: #1d1c1c;
+}
+
+.btn-outline-white:hover {
+  color: #1d1c1c;
+}
+
+.btn-round-black,
+.btn-round-black:link,
+.btn-round-black:visited,
+.btn-round-black:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #363533;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-white,
+.btn-round-white:link,
+.btn-round-white:visited,
+.btn-round-white:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #edebe6;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-cyan,
+.btn-round-cyan:link,
+.btn-round-cyan:visited,
+.btn-round-cyan:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #18f0da;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-cyan-green,
+.btn-round-cyan-green:link,
+.btn-round-cyan-green:visited,
+.btn-round-cyan-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #0cf575;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-red,
+.btn-round-red:link,
+.btn-round-red:visited,
+.btn-round-red:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ed2e0c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-orange,
+.btn-round-orange:link,
+.btn-round-orange:visited,
+.btn-round-orange:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #f5880c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-yellow,
+.btn-round-yellow:link,
+.btn-round-yellow:visited,
+.btn-round-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #f5e10c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-lemon-yellow,
+.btn-round-lemon-yellow:link,
+.btn-round-lemon-yellow:visited,
+.btn-round-lemon-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #daf50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-green,
+.btn-round-green:link,
+.btn-round-green:visited,
+.btn-round-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #4ef50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-blue,
+.btn-round-blue:link,
+.btn-round-blue:visited,
+.btn-round-blue:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #0c84f5;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-round-black {
+  color: #edebe6;
+}
+
+.btn-round-red {
+  color: #edebe6;
+}
+
+.btn-round-blue {
+  color: #edebe6;
+}
+
+.btn-round-orange {
+  color: #edebe6;
+}
+
+.btn-outline-round-black,
+.btn-outline-round-black:link,
+.btn-outline-round-black:visited,
+.btn-outline-round-black:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #363533;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #363533;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-black:hover {
+  background-color: #363533;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-white,
+.btn-outline-round-white:link,
+.btn-outline-round-white:visited,
+.btn-outline-round-white:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #edebe6;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #edebe6;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-white:hover {
+  background-color: #edebe6;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-cyan,
+.btn-outline-round-cyan:link,
+.btn-outline-round-cyan:visited,
+.btn-outline-round-cyan:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #18f0da;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #18f0da;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-cyan:hover {
+  background-color: #18f0da;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-cyan-green,
+.btn-outline-round-cyan-green:link,
+.btn-outline-round-cyan-green:visited,
+.btn-outline-round-cyan-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0cf575;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #0cf575;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-cyan-green:hover {
+  background-color: #0cf575;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-red,
+.btn-outline-round-red:link,
+.btn-outline-round-red:visited,
+.btn-outline-round-red:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ed2e0c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ed2e0c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-red:hover {
+  background-color: #ed2e0c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-orange,
+.btn-outline-round-orange:link,
+.btn-outline-round-orange:visited,
+.btn-outline-round-orange:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f5880c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f5880c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-orange:hover {
+  background-color: #f5880c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-yellow,
+.btn-outline-round-yellow:link,
+.btn-outline-round-yellow:visited,
+.btn-outline-round-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f5e10c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f5e10c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-yellow:hover {
+  background-color: #f5e10c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-lemon-yellow,
+.btn-outline-round-lemon-yellow:link,
+.btn-outline-round-lemon-yellow:visited,
+.btn-outline-round-lemon-yellow:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #daf50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #daf50c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-lemon-yellow:hover {
+  background-color: #daf50c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-green,
+.btn-outline-round-green:link,
+.btn-outline-round-green:visited,
+.btn-outline-round-green:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #4ef50c;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #4ef50c;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-green:hover {
+  background-color: #4ef50c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-blue,
+.btn-outline-round-blue:link,
+.btn-outline-round-blue:visited,
+.btn-outline-round-blue:active {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0c84f5;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #0c84f5;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 200px;
+  width: 13vh;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-round-blue:hover {
+  background-color: #0c84f5;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-round-cyan:hover {
+  color: #1d1c1c;
+}
+
+.btn-outline-round-cyan-green:hover {
+  color: #1d1c1c;
+}
+
+.btn-outline-round-white:hover {
+  color: #1d1c1c;
+}

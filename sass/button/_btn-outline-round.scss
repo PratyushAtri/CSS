@@ -1,0 +1,42 @@
+@each $name, $color in $colors {
+    .btn-outline-round-#{$name},
+    .btn-outline-round-#{$name}:link,
+    .btn-outline-round-#{$name}:visited,
+    .btn-outline-round-#{$name}:active {
+        display: inline-block;
+        cursor: pointer;
+        background-color: #ffffff;
+        color: $color;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid $color;
+        padding: 0.375rem 0.75rem;
+        line-height: 1.5;
+        border-radius: 200px;
+        width: 13vh;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, width 0.3s, height 0.3s;
+    }
+
+    .btn-outline-round-#{$name}:hover {
+        background-color: $color;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+}
+
+
+.btn-outline-round-cyan:hover {
+    color: #1d1c1c;
+}
+
+.btn-outline-round-cyan-green:hover {
+    color: #1d1c1c;
+}
+
+.btn-outline-round-white:hover {
+    color: #1d1c1c;
+}

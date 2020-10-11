@@ -1,0 +1,18 @@
+// @each $name, $color in $colors {
+//     .text-#{$name} {
+//         color: $color;
+//     }
+// }
+
+@import './main';
+@import './config';
+
+// Text
+@import './text/text-colors';
+@import './text/text-size';
+@import './text/text-align';
+
+@import './button/btn';
+@import './button/btn-outline';
+@import './button/btn-round';
+@import './button/btn-outline-round';
