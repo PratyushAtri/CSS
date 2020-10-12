@@ -8,6 +8,9 @@
 @import './main';
 @import "animation";
 
+// Utility
+@import "./bootstrap-container-cols";
+
 // Margin
 @import "margin/top";
 @import "margin/bottom";
@@ -19,6 +22,7 @@
 @import "padding/bottom";
 @import "padding/right";
 @import "padding/left";
+
 // Text
 @import './text/text-colors';
 @import './text/text-size';
@@ -46,3 +50,6 @@
 @import "./card/card-flip";
 @import "./card/card-small";
 @import "./card/card-large";
+
+// Visibility
+@import "./visibility/visibility";

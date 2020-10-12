@@ -1,0 +1,65 @@
+.hide-sm {
+  display: block;
+}
+
+.hide-md {
+  display: block;
+}
+
+.hide-lg {
+  display: none;
+}
+
+.show-sm {
+  display: none;
+}
+
+.show-md {
+  display: none;
+}
+
+.show-lg {
+  display: block;
+}
+
+@media (max-width: 950px) {
+  .hide-md {
+    display: none;
+  }
+  .show-md {
+    display: block;
+  }
+  .show-lg {
+    display: none;
+  }
+  .hide-lg {
+    display: block;
+  }
+  .show-sm {
+    display: none;
+  }
+  .hide-sm {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .hide-md {
+    display: none;
+  }
+  .show-md {
+    display: none;
+  }
+  .show-lg {
+    display: none;
+  }
+  .hide-lg {
+    display: block;
+  }
+  .show-sm {
+    display: block;
+  }
+  .hide-sm {
+    display: none;
+  }
+}
