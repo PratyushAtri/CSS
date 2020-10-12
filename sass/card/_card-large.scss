@@ -1,0 +1,40 @@
+.card-lg {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: row;
+  width: 150vh;
+  height: 25vh;
+  word-wrap: break-word;
+  background-color: rgba(226, 226, 226, 0.801);
+  background-clip: border-box;
+  border: 3px solid rgba(27, 25, 25, 0.699);
+  border-radius: 0.25rem;
+  margin: 3vh 3vh;
+
+  .card-img {
+    width: 30%;
+    height: 25vh;
+  }
+
+  .card-info {
+    padding: 2vh 5vh;
+
+    .card-title {
+      color: $blue;
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+    }
+    .card-desc {
+      padding: 2vh 0;
+      font-size: 1rem;
+      color: $orange;
+    }
+    .card-btn {
+      float: right;
+      font-size: 1rem;
+    }
+  }
+}

@@ -19,7 +19,6 @@
 @import "padding/bottom";
 @import "padding/right";
 @import "padding/left";
-
 // Text
 @import './text/text-colors';
 @import './text/text-size';
@@ -39,3 +38,11 @@
 
 // Background
 @import "./background/bg";
+
+// Form
+@import "./form/form";
+
+// Card
+@import "./card/card-flip";
+@import "./card/card-small";
+@import "./card/card-large";
