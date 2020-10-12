@@ -1,0 +1,5 @@
+@each $num, $val in $rem {
+  .mt-#{$num} {
+    margin-top: $val;
+  }
+}

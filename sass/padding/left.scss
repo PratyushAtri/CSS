@@ -1,0 +1,5 @@
+@each $num, $val in $rem {
+  .pl-#{$num} {
+    padding-left: $val;
+  }
+}

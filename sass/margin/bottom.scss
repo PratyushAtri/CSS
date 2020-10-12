@@ -1,0 +1,5 @@
+@each $num, $val in $rem {
+  .mb-#{$num} {
+    margin-bottom: $val;
+  }
+}

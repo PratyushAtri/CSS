@@ -1,0 +1,5 @@
+@each $num, $val in $rem {
+  .ml-#{$num} {
+    margin-left: $val;
+  }
+}
