@@ -8,6 +8,18 @@
 @import './main';
 @import "animation";
 
+// Margin
+@import "margin/top";
+@import "margin/bottom";
+@import "margin/right";
+@import "margin/left";
+
+// Padding
+@import "padding/top";
+@import "padding/bottom";
+@import "padding/right";
+@import "padding/left";
+
 // Text
 @import './text/text-colors';
 @import './text/text-size';
@@ -22,14 +34,8 @@
 // Navbar
 @import './navbar/nav';
 
-// Margin
-@import "margin/top";
-@import "margin/bottom";
-@import "margin/right";
-@import "margin/left";
+// Alerts
+@import "./alerts/alerts";
 
-// Padding
-@import "padding/top";
-@import "padding/bottom";
-@import "padding/right";
-@import "padding/left";
+// Background
+@import "./background/bg";

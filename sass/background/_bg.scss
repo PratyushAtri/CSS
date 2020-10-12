@@ -1,0 +1,16 @@
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background-color: $color;
+    border: 2px solid lighten($color, 20);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.bg-black {
+  color: $white;
+}
+
+.bg-white {
+  color: $black;
+}
